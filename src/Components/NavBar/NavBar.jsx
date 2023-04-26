@@ -10,11 +10,11 @@ const NavBar = () => {
       </div>
       <div className="n-right">
         <div className="n-list">
-          <ul>
+          <ul style={{listStyleType: 'none',}}>
             <li>Home</li>
-            <li>Services</li>
+            <li>About Me</li>
             <li>Expirence</li>
-            <li>Portfolio</li>
+            <li>Projects</li>
           </ul>
         </div>
         <button className="button">
